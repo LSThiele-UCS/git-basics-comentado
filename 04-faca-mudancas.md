@@ -19,11 +19,14 @@ git status
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Informa a branch em que estas.
+Mostra o status dos arquivos dessa branch.
+O que foi alterado e o que falta commitar.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Usar de preferência antes de fazer alteracoes para saber se esta no lugar correto
+Alem de mostrar o que vai ser mudado
 
 ---
 
@@ -109,7 +112,7 @@ git commit -m "[mensagem descritiva]"
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git status`
+- [x] 1. `git status`
 - [ ] 2. `git diff`
 - [ ] 3. `git add [arquivo]`
 - [ ] 4. `git diff --staged`
