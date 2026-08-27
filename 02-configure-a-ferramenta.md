@@ -19,11 +19,14 @@ git config --global user.name "[nome]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Define um nome de usuário que será assinado em todas os projetos gits da sua máquina.
+Então todo repositório criado e todo commit feito terá essa informação por padrão.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Logo quando estiver configurando o git pela primeira vez.
+Assim evita ter que fazer o git config para cada repositório.
+Apesar dessa ainda ser uma opção caso queira alterar esse dado.
 
 ---
 
@@ -35,18 +38,21 @@ git config --global user.email "[endereco-de-email]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+Define um email que será assinado em todas os projetos gits da sua máquina.
+Então todo repositório criado e todo commit feito terá essa informação por padrão.
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+Logo quando estiver configurando o git pela primeira vez.
+Assim evita ter que fazer o git config para cada repositório.
+Apesar dessa ainda ser uma opção caso queira alterar esse dado.
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git config --global user.name "[nome]"`
-- [ ] 2. `git config --global user.email "[endereco-de-email]"`
+- [x] 1. `git config --global user.name "[nome]"`
+- [x] 2. `git config --global user.email "[endereco-de-email]"`
 
 ---
 
